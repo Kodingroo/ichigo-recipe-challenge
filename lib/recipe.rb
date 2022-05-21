@@ -1,5 +1,5 @@
 class Recipe
-  attr_accessor :name, :ingredients, :method_steps, :hunger_level
+  attr_accessor :name, :ingredients, :method_steps
 
   def initialize(name: '', ingredients: [], method_steps: [])
     @name = name
